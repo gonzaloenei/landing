@@ -1,0 +1,105 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 56px;
+  text-shadow: 0 0 15px #131119;
+}
+
+.hero p {
+  color: rgba(245, 245, 245, 1);
+  font-size: 32px;
+  text-shadow: 0 0 15px #131119;
+}
+
+.btn-red {
+  display: inline-block;
+  background-color: #db323c;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-red:hover {
+  background-color: #ed2330;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opactity: .5;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #131119;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #c80e61;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+.footer .fas {
+  color: #BF0F12;
+}
+
